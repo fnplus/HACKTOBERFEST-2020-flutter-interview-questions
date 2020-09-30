@@ -25,17 +25,16 @@ You are requested to create your profile using the above link to be a part of it
 
 ## Contributing
 
-1. Have a look at open issues. They contain the list of algorithms/DS we plan
-to be implemented. Pick an unassigned issue.
-2. You can also create a new issue for an algorithm that is not in the list.
+1. Have a look at open issues. Pick an unassigned issue. 
+2. You can also create new issues (If you add a question or want answer to a particular question ).
 3. **Make sure you are assigned for the issue.**
 4. Fork the repo!
 5. Clone the forked repository to local system.
-6. Create your feature branch: `git checkout -b my-new-feature`
+6. Create your feature branch: `git checkout -b my-question-answer`
 7. Be sure to not include any compiled binaries in the patch.
-8. Commit your changes: `git commit -am 'Add some feature'`.
+8. Commit your changes: `git commit -am 'Add some question/answer'`.
    Go through [Commit Messages guidelines](CONTRIBUTING.md#write-good-commit-messages)
-9. Push to the branch: `git push origin my-new-feature`
+9. Push to the branch: `git push origin my-question-answer`
 While sending a PR make sure you follow one issue per PR rule.
 10. Submit a pull request :smile:
 
