@@ -32,6 +32,13 @@ You are requested to create your profile using the above link to be a part of it
    The pubspec. yaml file is the most important file in any Flutter project. 
    It is the place where you provide all the required dependencies of your Flutter project.
    
+
+5. What is the difference between NetworkImage and Image.network in flutter?
+
+   NetworkImage class creates an object the provides an image from the src URL passed to it. It is not a widget and does not output an image to the screen.
+   Image.network creates a widget that displays an image on the screen. It is just a named constructor on the Image class (a stateful widget). It sets the image property using the NetworkImage . This image property is used finally to display the image.
+
+
 ## Contributors
 
 [![](https://sourcerer.io/fame/xlogix/fnplus/flutter-interview-questions/images/0)](https://sourcerer.io/fame/xlogix/fnplus/flutter-interview-questions/links/0)[![](https://sourcerer.io/fame/xlogix/fnplus/flutter-interview-questions/images/1)](https://sourcerer.io/fame/xlogix/fnplus/flutter-interview-questions/links/1)[![](https://sourcerer.io/fame/xlogix/fnplus/flutter-interview-questions/images/2)](https://sourcerer.io/fame/xlogix/fnplus/flutter-interview-questions/links/2)[![](https://sourcerer.io/fame/xlogix/fnplus/flutter-interview-questions/images/3)](https://sourcerer.io/fame/xlogix/fnplus/flutter-interview-questions/links/3)[![](https://sourcerer.io/fame/xlogix/fnplus/flutter-interview-questions/images/4)](https://sourcerer.io/fame/xlogix/fnplus/flutter-interview-questions/links/4)[![](https://sourcerer.io/fame/xlogix/fnplus/flutter-interview-questions/images/5)](https://sourcerer.io/fame/xlogix/fnplus/flutter-interview-questions/links/5)[![](https://sourcerer.io/fame/xlogix/fnplus/flutter-interview-questions/images/6)](https://sourcerer.io/fame/xlogix/fnplus/flutter-interview-questions/links/6)[![](https://sourcerer.io/fame/xlogix/fnplus/flutter-interview-questions/images/7)](https://sourcerer.io/fame/xlogix/fnplus/flutter-interview-questions/links/7)
