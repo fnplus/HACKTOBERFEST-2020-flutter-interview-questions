@@ -79,11 +79,6 @@ You are requested to create your profile using the above link to be a part of it
 10. Is CI/CD possible in `Flutter`?
 
    Yes, CI/CD is possible in `Flutter`. There is CI/CD tool dedicated to `Flutter` the name is `CODE MAGIC`. With the help of `CODE MAGIC` we can easily automate the process of CI/CD for flutter apps from single automation.
-   
-   
-11. What’s the difference between `hot reload` and `hot restart`?
-     Hot reload maintains the app state while updating the UI almost instantaneously whereas Hot restart resets the app state to its initial conditions before updating the UI.
-
 
 12. What are Null-aware operators in `Flutter` ?    
 
@@ -95,6 +90,11 @@ You are requested to create your profile using the above link to be a part of it
 13. What is use of `Navigation.push` and `Navigation.pop` function? 
    
     The `push` method is used to add a route to the stack of routes managed by the navigator. The `pop` method is used to remove the current route from the stack of routes managed by the navigator.
+    
+ 
+ 14. What’s the difference between `hot reload` and `hot restart`?
+     Hot reload maintains the app state while updating the UI almost instantaneously whereas Hot restart resets the app state to its initial conditions before updating the UI.
+
 
 
 
