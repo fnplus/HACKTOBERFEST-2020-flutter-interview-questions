@@ -52,6 +52,11 @@ You are requested to create your profile using the above link to be a part of it
 7. What are mixins in dart?
 
    Mixins are used for a unique kind of inheritance, they allow other classes to inherit it's baked in methods for use, without actually being a child of the parent Mixin class. In simple words, Mixins are our usual normal classes from which we can borrow methods, without extending the class.
+   
+8. What is hot reload in flutter?
+
+   Flutter’s hot reload feature helps you quickly and easily experiment, build UIs, add features, and fix bugs. Hot reload works by injecting updated source code files into the running `Dart Virtual Machine (VM)`. After the VM updates classes with the new versions of fields and functions, the Flutter framework automatically rebuilds the widget tree, allowing you to quickly view the effects of your changes.
+	
 
 ## Contributors
 
