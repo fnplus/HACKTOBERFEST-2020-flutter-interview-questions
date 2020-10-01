@@ -80,7 +80,15 @@ You are requested to create your profile using the above link to be a part of it
 
    Yes, CI/CD is possible in `Flutter`. There is CI/CD tool dedicated to `Flutter` the name is `CODE MAGIC`. With the help of `CODE MAGIC` we can easily automate the process of CI/CD for flutter apps from single automation.
    
-12. What is use of `Navigation.push` and `Navigation.pop` function? 
+
+12. What are Null-aware operators in `Flutter` ?    
+
+     Dart offers some handy operators for dealing with values that might be null.
+
+     a.One is the ??= assignment operator, which assigns a value to a variable only if that variable is currently null<br>
+     b.Another null-aware operator is ??, which returns the expression on its left unless that expression’s value is null, in which case it evaluates and returns the expression        on its right
+
+13. What is use of `Navigation.push` and `Navigation.pop` function? 
    
     The `push` method is used to add a route to the stack of routes managed by the navigator. The `pop` method is used to remove the current route from the stack of routes managed by the navigator.
 
