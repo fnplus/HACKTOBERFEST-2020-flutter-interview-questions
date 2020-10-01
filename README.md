@@ -13,7 +13,7 @@ You are requested to create your profile using the above link to be a part of it
 
 2. Difference b/w `Stateful` widget and `Stateless` widget.
 
-   `Answer goes here`
+    Stateless widgets are the widgets that don’t change i.e. they are immutable. Its appearance and properties remain unchanged throughout the lifetime of the widget. Whereas       for Statefull widget are dynamic widget because they can change its properties during run-time, they are mutable
 
 3. What is the use of `pubspec.yaml` file in `Flutter`?
 
