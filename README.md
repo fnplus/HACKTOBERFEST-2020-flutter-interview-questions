@@ -32,11 +32,21 @@ You are requested to create your profile using the above link to be a part of it
    The pubspec. yaml file is the most important file in any Flutter project. 
    It is the place where you provide all the required dependencies of your Flutter project.
    
+5. What is Dart? Why Flutter uses Dart as Programming Language?
+   Dart is an object-oriented, garbage-collected programming language that you use to develop Flutter apps. It is created by Google. Dart was chosen as the language of Flutter      for the following reason:
+   
+   i. ***Dart is AOT (Ahead Of Time) compiled*** to fast, predictable, native code, which allows almost all of Flutter to be written in Dart. This makes Flutter fast
+   
+   ii. ***Dart can also be JIT (Just In Time) compiled*** for exceptionally fast development cycles and game-changing workflow (hotreload).
+   
+   iii. ***Dart allows Flutter to avoid the need for a separate declarative layout language*** like XML, because Dart’s declarative, programmatic layout is easy to read and visualize. i.e we can do both UI and Buisness Logic using one language only which is ***"DART"***
+   
+   iv. ***Dart Team + Flutter Team*** As both Dart and Flutter is developed and maintained by Google, hence both Flutter Team and Dart Team work together to solve the problem.  
 
-5. What is the difference between NetworkImage and Image.network in flutter?
+6. What is the difference between `NetworkImage` and `Image.network` in flutter?
 
-   NetworkImage class creates an object the provides an image from the src URL passed to it. It is not a widget and does not output an image to the screen.
-   Image.network creates a widget that displays an image on the screen. It is just a named constructor on the Image class (a stateful widget). It sets the image property using the NetworkImage . This image property is used finally to display the image.
+   `NetworkImage` class creates an object the provides an image from the src URL passed to it. It is not a widget and does not output an image to the screen.
+   `Image.network` creates a widget that displays an image on the screen. It is just a named constructor on the Image class (a stateful widget). It sets the image property using the NetworkImage . This image property is used finally to display the image.
 
 
 ## Contributors
