@@ -84,6 +84,20 @@ You are requested to create your profile using the above link to be a part of it
 11. What’s the difference between `hot reload` and `hot restart`?
      Hot reload maintains the app state while updating the UI almost instantaneously whereas Hot restart resets the app state to its initial conditions before updating the UI.
 
+
+12. What are Null-aware operators in `Flutter` ?    
+
+     Dart offers some handy operators for dealing with values that might be null.
+
+     a.One is the ??= assignment operator, which assigns a value to a variable only if that variable is currently null<br>
+     b.Another null-aware operator is ??, which returns the expression on its left unless that expression’s value is null, in which case it evaluates and returns the expression        on its right
+
+13. What is use of `Navigation.push` and `Navigation.pop` function? 
+   
+    The `push` method is used to add a route to the stack of routes managed by the navigator. The `pop` method is used to remove the current route from the stack of routes managed by the navigator.
+
+
+
 ## Contributors
 
 
