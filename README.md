@@ -7,17 +7,30 @@ You are requested to create your profile using the above link to be a part of it
 
    `Flutter is Google's UI toolkit for crafting beautiful, natively compiled applications for mobile, web, and desktop from a single codebase.`
 
-1. What are the `different types of widgets in Flutter`?
+2. What are the `different types of widgets in Flutter`?
 
-   `Answer goes here`
+   Two types of widgets present in the Flutter are stateless and stateful.
 
-2. Difference b/w `Stateful` widget and `Stateless` widget.
+   The stateless widgets don’t store any values which will change in the future. 
+   The stateless widgets don’t store any state. Icon, text widgets are some examples of stateless widgets.
 
-   `Answer goes here`
+   The stateful widgets have a state object to keep track of all the changes and updates happening in the UI. 
+   These widgets are immutable but the state object is used to keep track of the changes. 
+   Checkbox and image are some of the examples of stateful widgets.
 
-3. What is the use of `pubspec.yaml` file in `Flutter`?
+3. Difference b/w `Stateful` widget and `Stateless` widget.
+   
+   Stateless widgets cannot change their state during the runtime of the app, 
+   which means the widgets cannot be redrawn while the app is in action. 
 
-   `Answer goes here`
+   Stateful Widgets are the ones that change its properties during run-time. 
+   They are dynamic i.e., they are mutable and can be drawn multiple times within its lifetime. 
+   
+
+4. What is the use of `pubspec.yaml` file in `Flutter`?
+
+   The pubspec. yaml file is the most important file in any Flutter project. 
+   It is the place where you provide all the required dependencies of your Flutter project.
    
 ## Contributors
 
