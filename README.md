@@ -79,6 +79,13 @@ You are requested to create your profile using the above link to be a part of it
 10. Is CI/CD possible in `Flutter`?
 
    Yes, CI/CD is possible in `Flutter`. There is CI/CD tool dedicated to `Flutter` the name is `CODE MAGIC`. With the help of `CODE MAGIC` we can easily automate the process of CI/CD for flutter apps from single automation.
+   
+12. What are Null-aware operators in `Flutter` ?    
+
+     Dart offers some handy operators for dealing with values that might be null.
+
+     a.One is the ??= assignment operator, which assigns a value to a variable only if that variable is currently null<br>
+     b.Another null-aware operator is ??, which returns the expression on its left unless that expression’s value is null, in which case it evaluates and returns the expression        on its right
 ## Contributors
 
 [![](https://sourcerer.io/fame/xlogix/fnplus/flutter-interview-questions/images/0)](https://sourcerer.io/fame/xlogix/fnplus/flutter-interview-questions/links/0)[![](https://sourcerer.io/fame/xlogix/fnplus/flutter-interview-questions/images/1)](https://sourcerer.io/fame/xlogix/fnplus/flutter-interview-questions/links/1)[![](https://sourcerer.io/fame/xlogix/fnplus/flutter-interview-questions/images/2)](https://sourcerer.io/fame/xlogix/fnplus/flutter-interview-questions/links/2)[![](https://sourcerer.io/fame/xlogix/fnplus/flutter-interview-questions/images/3)](https://sourcerer.io/fame/xlogix/fnplus/flutter-interview-questions/links/3)[![](https://sourcerer.io/fame/xlogix/fnplus/flutter-interview-questions/images/4)](https://sourcerer.io/fame/xlogix/fnplus/flutter-interview-questions/links/4)[![](https://sourcerer.io/fame/xlogix/fnplus/flutter-interview-questions/images/5)](https://sourcerer.io/fame/xlogix/fnplus/flutter-interview-questions/links/5)[![](https://sourcerer.io/fame/xlogix/fnplus/flutter-interview-questions/images/6)](https://sourcerer.io/fame/xlogix/fnplus/flutter-interview-questions/links/6)[![](https://sourcerer.io/fame/xlogix/fnplus/flutter-interview-questions/images/7)](https://sourcerer.io/fame/xlogix/fnplus/flutter-interview-questions/links/7)
