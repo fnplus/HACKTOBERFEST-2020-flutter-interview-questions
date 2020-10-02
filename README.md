@@ -142,6 +142,13 @@ You are requested to create your profile using the above link to be a part of it
    * Whenever possible, use the `const` constructor, because this will tell Flutter that it doesn't need to rebuild the widget.
    * Keep the subtree of a stateful widget as small as possible. If a stateful widget needs to have a widget subtree under it, create a custom widget for the stateful widget and give it a `child` parameter.
 
+21. How to avoid widget remount while working with Bottom navigation tabs?
+
+    Hot reload maintains the app state while updating the UI almost instantaneously. Hot restart, by comparison, takes a little longer because it resets the app state to its initial conditions before updating the UI. Both of these are faster than doing a full restart, which requires recompiling the app.
+
+    When making significant changes, you need to stop and restart the app. On rare occasions, you might have to delete the app from your simulator/emulator or device and reinstall it.
+
+
 ## Contributors
 
 
