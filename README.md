@@ -57,11 +57,7 @@ You are requested to create your profile using the above link to be a part of it
 
    Flutter’s hot reload feature helps you quickly and easily experiment, build UIs, add features, and fix bugs. Hot reload works by injecting updated source code files into the running `Dart Virtual Machine (VM)`. After the VM updates classes with the new versions of fields and functions, the Flutter framework automatically rebuilds the widget tree, allowing you to quickly view the effects of your changes.
 	
-
-
-
-
-8. What are the two types of `Streams` available in `Flutter`?
+9. What are the two types of `Streams` available in `Flutter`?
    
    There are two types of Streams available in Flutter which are:
       ..* Single subscription streams
@@ -71,33 +67,34 @@ You are requested to create your profile using the above link to be a part of it
    `Broadcast streams` : This stream is meant for the individual messages that can be handeled one at a time. Multiple `listener` can listen at a time and it also gives the user the chance to listen after the cancellation of the previous subscription.
 
 
-9. What is a `Flutter Inspector` ?
+10. What is a `Flutter Inspector` ?
    
    `Flutter Inspector` is a tool that helps in visualizing and exploring the widget trees. It also helps in understanding the present layout and rectify the layout issues.
 
 
-10. Is CI/CD possible in `Flutter`?
+11. Is CI/CD possible in `Flutter`?
 
     Yes, CI/CD is possible in `Flutter`. There is CI/CD tool dedicated to `Flutter` the name is `CODE MAGIC`. With the help of `CODE MAGIC` we can easily automate the process of CI/CD for flutter apps from single automation.
    
    
-11. What’s the difference between `hot reload` and `hot restart`?
+12. What’s the difference between `hot reload` and `hot restart`?
     
-     Hot reload maintains the app state while updating the UI almost instantaneously whereas Hot restart resets the app state to its initial conditions before updating the UI.
+    Hot reload maintains the app state while updating the UI almost instantaneously whereas Hot restart resets the app state to its initial conditions before updating the UI.
 
 
-12. What are Null-aware operators in `Flutter` ?    
+13. What are Null-aware operators in `Flutter` ?    
 
      Dart offers some handy operators for dealing with values that might be null.
 
      a.One is the ??= assignment operator, which assigns a value to a variable only if that variable is currently null<br>
      b.Another null-aware operator is ??, which returns the expression on its left unless that expression’s value is null, in which case it evaluates and returns the expression        on its right
 
-13. What is use of `Navigation.push` and `Navigation.pop` function? 
+14. What is use of `Navigation.push` and `Navigation.pop` function? 
    
     The `push` method is used to add a route to the stack of routes managed by the navigator. The `pop` method is used to remove the current route from the stack of routes managed by the navigator.
 
-14. What is an `App state`? 
+
+15. What is an `App state`? 
     
     State means that is not ephemeral, that you want to share across many parts of your app, and that you want to keep between user sessions, is what we call application state (sometimes also called shared state).
 
@@ -108,7 +105,7 @@ You are requested to create your profile using the above link to be a part of it
    * The shopping cart in an e-commerce app
    * Read/unread state of articles in a news app
 
-15. What are the `different build modes` in Flutter?
+16. What are the `different build modes` in Flutter?
 
    * The Flutter tooling supports three modes when compiling your app, and a headless mode for testing.
    * You choose a compilation mode depending on where you are in the development cycle.
@@ -118,12 +115,12 @@ You are requested to create your profile using the above link to be a part of it
      * Profile
      * Release
 
-16. What is the difference between *`main()`* and *`runApp()`* functions in Flutter? 
+17. What is the difference between *`main()`* and *`runApp()`* functions in Flutter? 
 
    * `main ()` function came from Java-like languages so it's `where all program started,` without it, you can't write any program on Flutter even without UI.
    * `runApp()` function should return Widget that would be attached to the screen as a root of the Widget Tree that will be rendered.
 
-17. What is ***ScopedModel/BLoC Pattern?***
+18. What is ***ScopedModel/BLoC Pattern?***
     
     `ScopedModel` and `BLoC (Business Logic Components)` are common Flutter app architecture patterns to help separate business logic from UI code and using fewer Stateful Widgets.
 
@@ -131,7 +128,9 @@ You are requested to create your profile using the above link to be a part of it
    
     * `BLoC` stands for Business Logic Components. It helps in managing state and make access to data from a central place in your project. The gist of BLoC is that everything in the app should be represented as stream of events: widgets submit events; other widgets will respond. BLoC sits in the middle, managing the conversation.
 
+19. How to avoid widget remount while working with Bottom navigation tabs?
 
+    The effective way to avoid the no of widget rebuilds while working with multiple Widgets as interfaces of a app that uses Bottom Navigation Tabs as it's stratergy it to utilize IndexedStack that will increase the app performace by 2x and reduces the unnecessary widget rebuilds on tab changes.
 
 ## Contributors
 
