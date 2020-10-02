@@ -74,11 +74,12 @@ You are requested to create your profile using the above link to be a part of it
 
 11. Is CI/CD possible in `Flutter`?
 
-   Yes, CI/CD is possible in `Flutter`. There is CI/CD tool dedicated to `Flutter` the name is `CODE MAGIC`. With the help of `CODE MAGIC` we can easily automate the process of CI/CD for flutter apps from single automation.
+    Yes, CI/CD is possible in `Flutter`. There is CI/CD tool dedicated to `Flutter` the name is `CODE MAGIC`. With the help of `CODE MAGIC` we can easily automate the process of CI/CD for flutter apps from single automation.
    
    
 12. What’s the difference between `hot reload` and `hot restart`?
-     Hot reload maintains the app state while updating the UI almost instantaneously whereas Hot restart resets the app state to its initial conditions before updating the UI.
+    
+    Hot reload maintains the app state while updating the UI almost instantaneously whereas Hot restart resets the app state to its initial conditions before updating the UI.
 
 
 13. What are Null-aware operators in `Flutter` ?    
@@ -92,7 +93,42 @@ You are requested to create your profile using the above link to be a part of it
    
     The `push` method is used to add a route to the stack of routes managed by the navigator. The `pop` method is used to remove the current route from the stack of routes managed by the navigator.
 
-15. How to avoid widget remount while working with Bottom navigation tabs?
+
+15. What is an `App state`? 
+    
+    State means that is not ephemeral, that you want to share across many parts of your app, and that you want to keep between user sessions, is what we call application state (sometimes also called shared state).
+
+      ***Examples of application state:***
+   * User preferences
+   * Login info
+   * Notifications in a social networking app
+   * The shopping cart in an e-commerce app
+   * Read/unread state of articles in a news app
+
+16. What are the `different build modes` in Flutter?
+
+   * The Flutter tooling supports three modes when compiling your app, and a headless mode for testing.
+   * You choose a compilation mode depending on where you are in the development cycle.
+  
+   * The modes are:
+     * Debug
+     * Profile
+     * Release
+
+17. What is the difference between *`main()`* and *`runApp()`* functions in Flutter? 
+
+   * `main ()` function came from Java-like languages so it's `where all program started,` without it, you can't write any program on Flutter even without UI.
+   * `runApp()` function should return Widget that would be attached to the screen as a root of the Widget Tree that will be rendered.
+
+18. What is ***ScopedModel/BLoC Pattern?***
+    
+    `ScopedModel` and `BLoC (Business Logic Components)` are common Flutter app architecture patterns to help separate business logic from UI code and using fewer Stateful Widgets.
+
+    * `Scoped Model` is a third-party package that is not included into Flutter framework. It's a set of utilities that allow you to easily pass a data Model from a parent Widget down to its descendants. In addition, it also rebuilds all of the children that use the model when the model is updated. This library was originally extracted from the Fuchsia codebase.
+   
+    * `BLoC` stands for Business Logic Components. It helps in managing state and make access to data from a central place in your project. The gist of BLoC is that everything in the app should be represented as stream of events: widgets submit events; other widgets will respond. BLoC sits in the middle, managing the conversation.
+
+19. How to avoid widget remount while working with Bottom navigation tabs?
 
     The effective way to avoid the no of widget rebuilds while working with multiple Widgets as interfaces of a app that uses Bottom Navigation Tabs as it's stratergy it to utilize IndexedStack that will increase the app performace by 2x and reduces the unnecessary widget rebuilds on tab changes.
 
