@@ -142,6 +142,14 @@ You are requested to create your profile using the above link to be a part of it
    * Whenever possible, use the `const` constructor, because this will tell Flutter that it doesn't need to rebuild the widget.
    * Keep the subtree of a stateful widget as small as possible. If a stateful widget needs to have a widget subtree under it, create a custom widget for the stateful widget and give it a `child` parameter.
 
+21. Explain Hot Reload in Flutter?
+
+    The hot reload feature allows you to quickly and easily perform an experiment in the project. It helps to build UI, add new features, fix bugs, and make app development fast. To perform hot reloading of a Flutter app, do the following steps:
+
+     * Run the app in a supported Flutter editor or terminal window.
+     * Modify any of the Dart files in the project.
+     * If you use an IDE that supports Flutter, then select Save All or click the Hot Reload button on the toolbar. Immediately, you can see the result in your          emulator or real device.
+
 ## Contributors
 
 
