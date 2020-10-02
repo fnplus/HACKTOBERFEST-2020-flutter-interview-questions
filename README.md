@@ -132,6 +132,16 @@ You are requested to create your profile using the above link to be a part of it
 
     The effective way to avoid the no of widget rebuilds while working with multiple Widgets as interfaces of a app that uses Bottom Navigation Tabs as it's stratergy it to utilize IndexedStack that will increase the app performace by 2x and reduces the unnecessary widget rebuilds on tab changes.
 
+20. How do you reduce widget rebuild?
+
+   You rebuild widgets when the state changes. This is normal and desirable, because it allows the user to see the state changes reflected in the UI. However, rebuilding parts of the UI that don't need to change is wasteful.
+
+   There are several things you can do to reduce unnecessary widget rebuilding.
+
+   * The first is to refactor a large widget tree into smaller individual widgets, each with its own `build` method.
+   * Whenever possible, use the `const` constructor, because this will tell Flutter that it doesn't need to rebuild the widget.
+   * Keep the subtree of a stateful widget as small as possible. If a stateful widget needs to have a widget subtree under it, create a custom widget for the stateful widget and give it a `child` parameter.
+
 ## Contributors
 
 
