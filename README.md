@@ -142,6 +142,11 @@ You are requested to create your profile using the above link to be a part of it
    * Whenever possible, use the `const` constructor, because this will tell Flutter that it doesn't need to rebuild the widget.
    * Keep the subtree of a stateful widget as small as possible. If a stateful widget needs to have a widget subtree under it, create a custom widget for the stateful widget and give it a `child` parameter.
 
+21. What is setState() ?
+   
+  setState notifies the framework that the internal state of an object has changed in a way that might impact the user interface in this subtree, which causes the framework to schedule a build for this State object. If we just change the state directly without calling setState, the framework might not schedule a build and the user interface for this subtree might not be updated to reflect the new state.
+  It is recommended that the setState method only be used to wrap the actual changes to the state, not any computation that might be associated with the change.
+
 ## Contributors
 
 
