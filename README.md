@@ -141,6 +141,11 @@ You are requested to create your profile using the above link to be a part of it
    * The first is to refactor a large widget tree into smaller individual widgets, each with its own `build` method.
    * Whenever possible, use the `const` constructor, because this will tell Flutter that it doesn't need to rebuild the widget.
    * Keep the subtree of a stateful widget as small as possible. If a stateful widget needs to have a widget subtree under it, create a custom widget for the stateful widget and give it a `child` parameter.
+   
+21. What is BuildContext and how is it useful?
+
+   BuildContext is actually the widget's element in the Element tree — so every widget has its own BuildContext.
+   You usually use BuildContext to get a reference to the theme or to another widget. For example, if you want to show a material dialog, you need a reference to the scaffold. You can get it with Scaffold.of(context), where context is the build context. of() searches up the tree until it finds the nearest scaffold.
 
 ## Contributors
 
