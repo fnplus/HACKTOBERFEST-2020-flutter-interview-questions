@@ -32,7 +32,8 @@ You are requested to create your profile using the above link to be a part of it
    The pubspec. yaml file is the most important file in any Flutter project. 
    It is the place where you provide all the required dependencies of your Flutter project.
    
-5. What is Dart? Why Flutter uses Dart as Programming Language?
+5. What is `Dart`? Why Flutter uses Dart as Programming Language?
+   
    Dart is an object-oriented, garbage-collected programming language that you use to develop Flutter apps. It is created by Google. Dart was chosen as the language of Flutter      for the following reason:
    
    i. ***Dart is AOT (Ahead Of Time) compiled*** to fast, predictable, native code, which allows almost all of Flutter to be written in Dart. This makes Flutter fast
@@ -49,11 +50,11 @@ You are requested to create your profile using the above link to be a part of it
    `Image.network` creates a widget that displays an image on the screen. It is just a named constructor on the Image class (a stateful widget). It sets the image property using the NetworkImage . This image property is used finally to display the image.
 
 
-7. What are mixins in dart?
+7. What are `mixins` in dart?
 
    Mixins are used for a unique kind of inheritance, they allow other classes to inherit it's baked in methods for use, without actually being a child of the parent Mixin class. In simple words, Mixins are our usual normal classes from which we can borrow methods, without extending the class.
    
-8. What is hot reload in flutter?
+8. What is `hot reload` in flutter?
 
    Flutter’s hot reload feature helps you quickly and easily experiment, build UIs, add features, and fix bugs. Hot reload works by injecting updated source code files into the running `Dart Virtual Machine (VM)`. After the VM updates classes with the new versions of fields and functions, the Flutter framework automatically rebuilds the widget tree, allowing you to quickly view the effects of your changes.
 	
@@ -142,12 +143,12 @@ You are requested to create your profile using the above link to be a part of it
    * Whenever possible, use the `const` constructor, because this will tell Flutter that it doesn't need to rebuild the widget.
    * Keep the subtree of a stateful widget as small as possible. If a stateful widget needs to have a widget subtree under it, create a custom widget for the stateful widget and give it a `child` parameter.
    
-21. What is BuildContext and how is it useful?
+21. What is `BuildContext` and how is it useful?
 
    BuildContext is actually the widget's element in the Element tree — so every widget has its own BuildContext.
    You usually use BuildContext to get a reference to the theme or to another widget. For example, if you want to show a material dialog, you need a reference to the scaffold. You can get it with Scaffold.of(context), where context is the build context. of() searches up the tree until it finds the nearest scaffold.
 
-21. What is setState() ?
+21. What is `setState()` ?
    
   setState notifies the framework that the internal state of an object has changed in a way that might impact the user interface in this subtree, which causes the framework to schedule a build for this State object. If we just change the state directly without calling setState, the framework might not schedule a build and the user interface for this subtree might not be updated to reflect the new state.
   It is recommended that the setState method only be used to wrap the actual changes to the state, not any computation that might be associated with the change.
