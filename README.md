@@ -1,4 +1,4 @@
-# Flutter Interview `Questions` with `Answers`
+# Flutter Interview Questions with Answers
 
 This repository is a part of [HacktoberFest-an event organised by DigitalOcean](https://hacktoberfest.digitalocean.com/). 
 You are requested to create your profile using the above link to be a part of it.
