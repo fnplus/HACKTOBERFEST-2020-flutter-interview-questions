@@ -152,6 +152,10 @@ You are requested to create your profile using the above link to be a part of it
    
   setState notifies the framework that the internal state of an object has changed in a way that might impact the user interface in this subtree, which causes the framework to schedule a build for this State object. If we just change the state directly without calling setState, the framework might not schedule a build and the user interface for this subtree might not be updated to reflect the new state.
   It is recommended that the setState method only be used to wrap the actual changes to the state, not any computation that might be associated with the change.
+  
+23. Explain why the `Arrow operator` is used in Flutter?
+
+  The Arrow operator is the only one line of code and is a shorthand in Dart, which can we used to write one-line functions.
 
 23. What is the purpose of a `SafeArea`?
 
