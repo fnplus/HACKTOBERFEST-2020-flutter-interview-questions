@@ -157,7 +157,7 @@ You are requested to create your profile using the above link to be a part of it
 
   The Arrow operator is the only one line of code and is a shorthand in Dart, which can we used to write one-line functions.
 
-23. What is the purpose of a `SafeArea`?
+24. What is the purpose of a `SafeArea`?
 
    `SafeArea` is basically a glorified Padding widget. If you wrap another widget with `SafeArea` , it adds any necessary padding needed to keep your widget from being blocked by the system status bar, notches, holes, rounded corners and other "creative" features by manufactures.
 
