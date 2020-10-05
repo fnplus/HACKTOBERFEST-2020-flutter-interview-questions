@@ -161,6 +161,17 @@ You are requested to create your profile using the above link to be a part of it
 
    `SafeArea` is basically a glorified Padding widget. If you wrap another widget with `SafeArea` , it adds any necessary padding needed to keep your widget from being blocked by the system status bar, notches, holes, rounded corners and other "creative" features by manufactures.
 
+25. What is the difference between `WidgetsApp` and `MaterialApp`?
+   
+   `WidgetsApp` provides basic navigation. Together with the `widgets` library, it includes many of the foundational widgets that Flutter uses.
+   `MaterialApp` and the corresponding `material` library is a layer built on top of `WidgetsApp` and the widgets library. It implements Material Design, which gives the app a unified look and feel on any platform or device. The `material` library has many additional widgets that come with it.
+   You certainly aren’t required to use `MaterialApp` in your project. You can use `CupertinoApp` to make iOS users feel at home, or you can even build your own set of custom widgets to fit your brand.
+
+26. Can you nest a `Scaffold`? Why or why not?
+
+   Yes, you can absolutely nest a `Scaffold`. That’s the beauty of Flutter. You control the entire UI.
+   `Scaffold` is just a widget, so you can put it anywhere a widget might go. By nesting a `Scaffold`, you can layer drawers, snack bars and bottom sheets.
+
 
 ## Contributors
 
