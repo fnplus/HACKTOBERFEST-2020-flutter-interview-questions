@@ -172,6 +172,22 @@ You are requested to create your profile using the above link to be a part of it
    Yes, you can absolutely nest a `Scaffold`. That’s the beauty of Flutter. You control the entire UI.
    `Scaffold` is just a widget, so you can put it anywhere a widget might go. By nesting a `Scaffold`, you can layer drawers, snack bars and bottom sheets.
 
+27. When is it appropriate to use packages, plugins or third-party dependencies?
+
+   Packages and plugins are great for saving you time and work. There’s no need to solve a complex problem yourself when someone else has done it already, especially if the solution is highly rated.
+   On the other hand, there’s also a danger of being too reliant on third party packages. They can break, have bugs or even be abandoned. When you need to switch to a new package down the road, you might have to make huge changes to your code.
+   That’s why it’s important to isolate packages from your core business logic. You can do that by creating an abstract Dart class that acts as an interface for the package. Once you’ve set up that kind of architecture, all you have to do to switch packages is to rewrite the concrete wrapper class that implements your interface.
+
+28. What types of tests can you perform?
+
+   There are three main kinds of tests: unit tests, widget tests and integration tests. Unit tests are all about checking the validity of your business logic. Widget tests are for making sure UI widgets have the components that you expect them to. Integration tests check that your app is working as a whole.
+   One additional type of test that is not as well known is a golden test. In a golden test, you have an image of a widget or screen and check to see that the actual widget matches it.
+
+29. How do you talk to native code from within a Flutter app?
+
+   One type of platform channel is a method channel. Data is serialized on the Dart side and then sent to the native side. You can write native code to interact with the platform before sending a serialized message back. That message might be written in Java or Kotlin on Android or Objective-C or Swift on iOS.
+   The second type of platform channel is the event channel, which you use to send a stream of data from the native platform back to Flutter. This is useful for monitoring sensor data.
+
 
 ## Contributors
 
