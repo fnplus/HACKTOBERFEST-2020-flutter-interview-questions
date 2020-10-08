@@ -188,6 +188,19 @@ You are requested to create your profile using the above link to be a part of it
    One type of platform channel is a method channel. Data is serialized on the Dart side and then sent to the native side. You can write native code to interact with the platform before sending a serialized message back. That message might be written in Java or Kotlin on Android or Objective-C or Swift on iOS.
    The second type of platform channel is the event channel, which you use to send a stream of data from the native platform back to Flutter. This is useful for monitoring sensor data.
 
+30. What is the use of having Android and iOS folders in the Flutter project?
+
+   Android:  This folder is meant for holding an entire Android project.  This will come into usage when you want to build a Flutter application for the Android platform. When you compile a Flutter code into the native code, it will enter into the Android project and gives you a native Android application.
+   
+   iOS: This folder is meant for holding an entire Mac project. This will come into usage when you want to build a Flutter application for the iOS platform. It works similarly to the Android folder. When you compile a Flutter code into the native code, it will enter into the Android iOS project and gives you a native Android application. Building a Flutter application will only be possible when you work on Xcode IDE and macOS.
+
+31. What are the various types of RenderObjectElement in flutter?
+
+    In flutter we have two types of RenderObjectElements:
+
+    For e.g. Column(children: )
+    For e.g. Padding(child: )
+
 
 ## Contributors
 
