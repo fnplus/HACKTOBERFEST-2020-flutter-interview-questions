@@ -198,7 +198,7 @@ You are requested to create your profile using the above link to be a part of it
    
 31. What are the different build modes in Flutter?
 
-   The Flutter tooling supports three modes when compiling your app, and a headless mode for testing. You choose a compilation mode depending on where you are in the development cycle.The modes are: 
+   The Flutter tooling supports three modes when compiling your app, and a headless mode for testing. You choose a compilation mode depending on where you are in the development cycle. The modes are: 
    - Debug 
    - Profile 
    - Release
