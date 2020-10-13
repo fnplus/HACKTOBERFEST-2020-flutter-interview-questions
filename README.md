@@ -178,52 +178,30 @@ You are requested to create your profile using the above link to be a part of it
    On the other hand, there’s also a danger of being too reliant on third party packages. They can break, have bugs or even be abandoned. When you need to switch to a new package down the road, you might have to make huge changes to your code.
    That’s why it’s important to isolate packages from your core business logic. You can do that by creating an abstract Dart class that acts as an interface for the package. Once you’ve set up that kind of architecture, all you have to do to switch packages is to rewrite the concrete wrapper class that implements your interface.
 
-28. What types of tests can you perform?
+28. What types of `tests` can you perform?
 
    There are three main kinds of tests: unit tests, widget tests and integration tests. Unit tests are all about checking the validity of your business logic. Widget tests are for making sure UI widgets have the components that you expect them to. Integration tests check that your app is working as a whole.
    One additional type of test that is not as well known is a golden test. In a golden test, you have an image of a widget or screen and check to see that the actual widget matches it.
 
-29. How do you talk to native code from within a Flutter app?
+29. How do you `talk to native code` from within a Flutter app?
 
    One type of platform channel is a method channel. Data is serialized on the Dart side and then sent to the native side. You can write native code to interact with the platform before sending a serialized message back. That message might be written in Java or Kotlin on Android or Objective-C or Swift on iOS.
    The second type of platform channel is the event channel, which you use to send a stream of data from the native platform back to Flutter. This is useful for monitoring sensor data.
-   
-30. Why does the first Flutter app build take so long?
 
-   When you build the Flutter app the first time, it will take a longer time. It is because the Flutter builds the device-specific APK or IPA file. Thus, the Gradle and Xcode are used to build the file, taking a long time.
-   
-31. What is the purpose of @override used in Flutter?
-
-   @override points out that the function is also defined in an ancestor class, but is being redefined to do something else in the current class. It's also used to annotate the implementation of an abstract method. It is optional to use but recommended as it improves readability.
-   
-31. What are the different build modes in Flutter?
-
-   The Flutter tooling supports three modes when compiling your app, and a headless mode for testing. You choose a compilation mode depending on where you are in the development cycle. The modes are: 
-   - Debug 
-   - Profile 
-   - Release
-   
-
-   
-
-   
-
-
-
-30. What is the use of having Android and iOS folders in the Flutter project?
+30. What is the use of having `Android and iOS folders` in the Flutter project?
 
    Android:  This folder is meant for holding an entire Android project.  This will come into usage when you want to build a Flutter application for the Android platform. When you compile a Flutter code into the native code, it will enter into the Android project and gives you a native Android application.
    
    iOS: This folder is meant for holding an entire Mac project. This will come into usage when you want to build a Flutter application for the iOS platform. It works similarly to the Android folder. When you compile a Flutter code into the native code, it will enter into the Android iOS project and gives you a native Android application. Building a Flutter application will only be possible when you work on Xcode IDE and macOS.
 
-31. What are the various types of RenderObjectElement in flutter?
+31. What are the various types of `RenderObjectElement in flutter`?
 
     In flutter we have two types of RenderObjectElements:
 
     For e.g. Column(children: )
     For e.g. Padding(child: )
 
-32. What is profile mode and when do you use it?
+32. What is `profile mode` and when do you use it?
    
    In profile mode, some debugging ability is maintained—enough to profile your app’s performance.
    Profile mode is used when you want to analyze performance.
@@ -231,8 +209,22 @@ You are requested to create your profile using the above link to be a part of it
    On mobile, profile mode is similar to release mode, with the following differences: - Some service extensions, such as the one that enables the performance overlay, are enabled. - Tracing is enabled, and tools supporting source-level debugging (such as DevTools) can connect to the process.
    Profile mode for a web app means that: - The build is not minified but tree shaking has been performed. - The app is compiled with the dart2js compiler.
    The command flutter run --profile compiles to profile mode.
+   
+33. Why does the first Flutter app build take so long?
 
+   When you build the Flutter app the first time, it will take a longer time. It is because the Flutter builds the device-specific APK or IPA file. Thus, the Gradle and Xcode are used to build the file, taking a long time.
+   
+34. What is the purpose of `@override` used in Flutter?
 
+   @override points out that the function is also defined in an ancestor class, but is being redefined to do something else in the current class. It's also used to annotate the implementation of an abstract method. It is optional to use but recommended as it improves readability.
+   
+35. What are the different `build modes` in Flutter?
+
+   The Flutter tooling supports three modes when compiling your app, and a headless mode for testing. You choose a compilation mode depending on where you are in the development cycle. The modes are: 
+   - Debug 
+   - Profile 
+   - Release
+   
 
 ## Contributors
 
