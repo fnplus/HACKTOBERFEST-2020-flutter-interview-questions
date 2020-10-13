@@ -187,6 +187,27 @@ You are requested to create your profile using the above link to be a part of it
 
    One type of platform channel is a method channel. Data is serialized on the Dart side and then sent to the native side. You can write native code to interact with the platform before sending a serialized message back. That message might be written in Java or Kotlin on Android or Objective-C or Swift on iOS.
    The second type of platform channel is the event channel, which you use to send a stream of data from the native platform back to Flutter. This is useful for monitoring sensor data.
+   
+30. Why does the first Flutter app build take so long?
+
+   When you build the Flutter app the first time, it will take a longer time. It is because the Flutter builds the device-specific APK or IPA file. Thus, the Gradle and Xcode are used to build the file, taking a long time.
+   
+31. What is the purpose of @override used in Flutter?
+
+   @override points out that the function is also defined in an ancestor class, but is being redefined to do something else in the current class. It's also used to annotate the implementation of an abstract method. It is optional to use but recommended as it improves readability.
+   
+31. What are the different build modes in Flutter?
+
+   The Flutter tooling supports three modes when compiling your app, and a headless mode for testing. You choose a compilation mode depending on where you are in the development cycle. The modes are: 
+   - Debug 
+   - Profile 
+   - Release
+   
+
+   
+
+   
+
 
 
 30. What is the use of having Android and iOS folders in the Flutter project?
