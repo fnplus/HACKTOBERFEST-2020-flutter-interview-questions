@@ -188,6 +188,7 @@ You are requested to create your profile using the above link to be a part of it
    One type of platform channel is a method channel. Data is serialized on the Dart side and then sent to the native side. You can write native code to interact with the platform before sending a serialized message back. That message might be written in Java or Kotlin on Android or Objective-C or Swift on iOS.
    The second type of platform channel is the event channel, which you use to send a stream of data from the native platform back to Flutter. This is useful for monitoring sensor data.
 
+
 30. What is the use of having Android and iOS folders in the Flutter project?
 
    Android:  This folder is meant for holding an entire Android project.  This will come into usage when you want to build a Flutter application for the Android platform. When you compile a Flutter code into the native code, it will enter into the Android project and gives you a native Android application.
@@ -200,6 +201,16 @@ You are requested to create your profile using the above link to be a part of it
 
     For e.g. Column(children: )
     For e.g. Padding(child: )
+
+32. What is profile mode and when do you use it?
+   
+   In profile mode, some debugging ability is maintained—enough to profile your app’s performance.
+   Profile mode is used when you want to analyze performance.
+   Profile mode is disabled on the emulator and simulator, because their behavior is not representative of real performance.
+   On mobile, profile mode is similar to release mode, with the following differences: - Some service extensions, such as the one that enables the performance overlay, are enabled. - Tracing is enabled, and tools supporting source-level debugging (such as DevTools) can connect to the process.
+   Profile mode for a web app means that: - The build is not minified but tree shaking has been performed. - The app is compiled with the dart2js compiler.
+   The command flutter run --profile compiles to profile mode.
+
 
 
 ## Contributors
