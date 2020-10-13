@@ -211,6 +211,8 @@ You are requested to create your profile using the above link to be a part of it
    Profile mode for a web app means that: - The build is not minified but tree shaking has been performed. - The app is compiled with the dart2js compiler.
    The command flutter run --profile compiles to profile mode.
 
+33. What is different from React Native? or How flutter is different from React Native?
+	React Native utilizes a JavaScript bridge to convert its widgets to OEM widgets. And since it does this conversion (compare & update cycle) constantly, it creates a bottleneck and causes a drop in performance as a result. While still using the advantages of reactive views, on the contrary, Flutter does not use such a bridge to convert its own widgets to OEM widgets as shown in the answer to the previous question. Besides fast & smooth UI performance and predictability, as a further advantage of this, what you see on an Android KitKat device will be the same as what you get on Android Pie. This compatibility is obvious because Flutter doesn’t use OEM widgets and isn’t affected by UI/UX changes between different Android versions.
 
 
 ## Contributors
