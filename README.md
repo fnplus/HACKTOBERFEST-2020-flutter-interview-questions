@@ -224,6 +224,30 @@ You are requested to create your profile using the above link to be a part of it
    - Debug 
    - Profile 
    - Release
+
+36. Does Flutter work like a browser? How is it different from a WebView based application?  
+ 
+
+   To answer this question simply: Code you write for a WebView or an app that runs similarly has to go through multiple layers to finally get executed. In essence, Flutter leapfrogs that by compiling down to native ARM code to execute on both platforms. “Hybrid” apps are slow, sluggish and look different from the platform they run on. Flutter apps run much, much faster than their hybrid counterparts. Also, it’s much easier to access native components and sensors using plugins rather than using WebViews which can’t take full use of their platform.
+
+37. What is the difference between WidgetsApp and MaterialApp?
+
+
+    WidgetsApp provides basic navigation. Together with the widgets library, it includes many of the foundational widgets that Flutter uses.
+    MaterialApp and the corresponding material library is a layer built on top of WidgetsApp and the widgets library. It implements Material Design, which gives the app a unified look and feel on any platform or device. The material library has many additional widgets that come with it.
+
+    You certainly aren’t required to use MaterialApp in your project. You can use CupertinoApp to make iOS users feel at home, or you can even build your own set of custom widgets to fit your brand.
+
+
+38. How do you reduce widget rebuild?
+
+
+   You rebuild widgets when the state changes. This is normal and desirable, because it allows the user to see the state changes reflected in the UI. However, rebuilding parts of the UI that don't need to change is wasteful.
+   There are several things you can do to reduce unnecessary widget rebuilding.
+
+   The first is to refactor a large widget tree into smaller individual widgets, each with its own build method.
+   Whenever possible, use the const constructor, because this will tell Flutter that it doesn't need to rebuild the widget.
+   Keep the subtree of a stateful widget as small as possible. If a stateful widget needs to have a widget subtree under it, create a custom widget for the stateful widget and give it a child parameter
    
 
 ## Contributors
