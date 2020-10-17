@@ -225,6 +225,11 @@ You are requested to create your profile using the above link to be a part of it
    - Profile 
    - Release
    
+36. What is the major difference between Flutter and React Native?
+
+   Flutter and React Native both are used to develop hybrid apps by utilizing a single codebase. The apps developed by using these frameworks can be run on iOS and Android platforms.
+   React Native uses javascript for building applications, whereas Flutter uses Data language to develop applications. Most of the developers say that it is very difficult to choose from Flutter and React Native.
+   
 
 ## Contributors
 
