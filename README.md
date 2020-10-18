@@ -5,7 +5,7 @@ You are requested to create your profile using the above link to be a part of it
 
 1. What is `Flutter`?
 
-   `Flutter is Google's UI toolkit for crafting beautiful, natively compiled applications for mobile, web, and desktop from a single codebase.`
+   Flutter is Google's UI toolkit for crafting beautiful, natively compiled applications for mobile, web, and desktop from a single codebase.
 
 2. What are the `different types of widgets in Flutter`?
 
@@ -156,6 +156,75 @@ You are requested to create your profile using the above link to be a part of it
 23. Explain why the `Arrow operator` is used in Flutter?
 
   The Arrow operator is the only one line of code and is a shorthand in Dart, which can we used to write one-line functions.
+
+24. What is the purpose of a `SafeArea`?
+
+   `SafeArea` is basically a glorified Padding widget. If you wrap another widget with `SafeArea` , it adds any necessary padding needed to keep your widget from being blocked by the system status bar, notches, holes, rounded corners and other "creative" features by manufactures.
+
+25. What is the difference between `WidgetsApp` and `MaterialApp`?
+   
+   `WidgetsApp` provides basic navigation. Together with the `widgets` library, it includes many of the foundational widgets that Flutter uses.
+   `MaterialApp` and the corresponding `material` library is a layer built on top of `WidgetsApp` and the widgets library. It implements Material Design, which gives the app a unified look and feel on any platform or device. The `material` library has many additional widgets that come with it.
+   You certainly aren’t required to use `MaterialApp` in your project. You can use `CupertinoApp` to make iOS users feel at home, or you can even build your own set of custom widgets to fit your brand.
+
+26. Can you nest a `Scaffold`? Why or why not?
+
+   Yes, you can absolutely nest a `Scaffold`. That’s the beauty of Flutter. You control the entire UI.
+   `Scaffold` is just a widget, so you can put it anywhere a widget might go. By nesting a `Scaffold`, you can layer drawers, snack bars and bottom sheets.
+
+27. When is it appropriate to use packages, plugins or third-party dependencies?
+
+   Packages and plugins are great for saving you time and work. There’s no need to solve a complex problem yourself when someone else has done it already, especially if the solution is highly rated.
+   On the other hand, there’s also a danger of being too reliant on third party packages. They can break, have bugs or even be abandoned. When you need to switch to a new package down the road, you might have to make huge changes to your code.
+   That’s why it’s important to isolate packages from your core business logic. You can do that by creating an abstract Dart class that acts as an interface for the package. Once you’ve set up that kind of architecture, all you have to do to switch packages is to rewrite the concrete wrapper class that implements your interface.
+
+28. What types of `tests` can you perform?
+
+   There are three main kinds of tests: unit tests, widget tests and integration tests. Unit tests are all about checking the validity of your business logic. Widget tests are for making sure UI widgets have the components that you expect them to. Integration tests check that your app is working as a whole.
+   One additional type of test that is not as well known is a golden test. In a golden test, you have an image of a widget or screen and check to see that the actual widget matches it.
+
+29. How do you `talk to native code` from within a Flutter app?
+
+   One type of platform channel is a method channel. Data is serialized on the Dart side and then sent to the native side. You can write native code to interact with the platform before sending a serialized message back. That message might be written in Java or Kotlin on Android or Objective-C or Swift on iOS.
+   The second type of platform channel is the event channel, which you use to send a stream of data from the native platform back to Flutter. This is useful for monitoring sensor data.
+
+30. What is the use of having `Android and iOS folders` in the Flutter project?
+
+   Android:  This folder is meant for holding an entire Android project.  This will come into usage when you want to build a Flutter application for the Android platform. When you compile a Flutter code into the native code, it will enter into the Android project and gives you a native Android application.
+   
+   iOS: This folder is meant for holding an entire Mac project. This will come into usage when you want to build a Flutter application for the iOS platform. It works similarly to the Android folder. When you compile a Flutter code into the native code, it will enter into the Android iOS project and gives you a native Android application. Building a Flutter application will only be possible when you work on Xcode IDE and macOS.
+
+31. What are the various types of `RenderObjectElement in flutter`?
+
+    In flutter we have two types of RenderObjectElements:
+
+    For e.g. Column(children: )
+    For e.g. Padding(child: )
+
+32. What is `profile mode` and when do you use it?
+   
+   In profile mode, some debugging ability is maintained—enough to profile your app’s performance.
+   Profile mode is used when you want to analyze performance.
+   Profile mode is disabled on the emulator and simulator, because their behavior is not representative of real performance.
+   On mobile, profile mode is similar to release mode, with the following differences: - Some service extensions, such as the one that enables the performance overlay, are enabled. - Tracing is enabled, and tools supporting source-level debugging (such as DevTools) can connect to the process.
+   Profile mode for a web app means that: - The build is not minified but tree shaking has been performed. - The app is compiled with the dart2js compiler.
+   The command flutter run --profile compiles to profile mode.
+   
+33. Why does the first Flutter app build take so long?
+
+   When you build the Flutter app the first time, it will take a longer time. It is because the Flutter builds the device-specific APK or IPA file. Thus, the Gradle and Xcode are used to build the file, taking a long time.
+   
+34. What is the purpose of `@override` used in Flutter?
+
+   @override points out that the function is also defined in an ancestor class, but is being redefined to do something else in the current class. It's also used to annotate the implementation of an abstract method. It is optional to use but recommended as it improves readability.
+   
+35. What are the different `build modes` in Flutter?
+
+   The Flutter tooling supports three modes when compiling your app, and a headless mode for testing. You choose a compilation mode depending on where you are in the development cycle. The modes are: 
+   - Debug 
+   - Profile 
+   - Release
+   
 
 ## Contributors
 
