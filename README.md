@@ -224,7 +224,9 @@ You are requested to create your profile using the above link to be a part of it
    - Debug 
    - Profile 
    - Release
-   
+36. Why does the first flutter app take a very long developing time?
+
+   When you are going to build the Flutter app for the first time, it takes a very long time than usual because Flutter builds a device-specific IPA or APK file. In this process, the Xcode and Gradle are used to build a file, which usually takes a long time.   
 
 ## Contributors
 
