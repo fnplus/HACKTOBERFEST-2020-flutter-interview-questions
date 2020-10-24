@@ -224,7 +224,9 @@ You are requested to create your profile using the above link to be a part of it
    - Debug 
    - Profile 
    - Release
-   
+36. What is ListView in Flutter?
+    
+    ListView is the most commonly used scrolling widget. It displays its children one after another in the scroll direction. In the cross axis, the children are required to fill the ListView.
 
 ## Contributors
 
