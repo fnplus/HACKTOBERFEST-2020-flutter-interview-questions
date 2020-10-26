@@ -224,9 +224,20 @@ You are requested to create your profile using the above link to be a part of it
    - Debug 
    - Profile 
    - Release
+   
 36. What is ListView in Flutter?
     
     ListView is the most commonly used scrolling widget. It displays its children one after another in the scroll direction. In the cross axis, the children are required to fill the ListView.
+    
+37. What is the difference between "main()" and "runApp()" functions in Flutter?
+
+    We can differentiate the main and runApp functions in Flutter as below:
+ 1. The main() function is responsible for starting the program. Without the main() function, we cannot write any program on Flutter.
+ 2. The runApp() function is responsible for returning the widgets that are attached to the screen as a root of the widget tree and will be rendered on the screen.
+ 
+38. What is Stream in Flutter?
+
+    A stream is a sequence of asynchronous events. It provides an asynchronous sequence of data. It is the same as a pipe where we put some value on the one end, and if we have a listener on the other end, it will receive that value. We can keep multiple listeners in a stream, and all of those will receive the same value when put in the pipeline.
 
 ## Contributors
 
