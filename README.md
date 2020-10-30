@@ -224,7 +224,19 @@ You are requested to create your profile using the above link to be a part of it
    - Debug 
    - Profile 
    - Release
-   
+
+36. What are the `advantages of Flutter`?
+
+   The popular advantages of the Flutter framework are as follows:
+
+   - **Cross-platform Development:** This feature allows Flutter to write the code once, maintain, and can run on different platforms. It saves the time, effort, and money of the developers.
+   - **Faster Development:** The performance of the Flutter application is fast. Flutter compiles the application by using the arm C/C++ library that makes it closer to machine code and gives the app a better native performance.
+   - **Good Community:** Flutter has good community support where the developers can ask the issues and get the result quickly.
+   - **Live and Hot Reloading:** It makes the app development process extremely fast. This feature allows us to change or update the code are reflected as soon as the alterations are made.
+   - **Minimal code:** Flutter app is developed by Dart programming language, which uses JIT and AOT compilation to improve the overall start-up time, functioning and accelerates the performance. JIT enhances the development system and refreshes the UI without putting extra effort into building a new one.
+   - **UI Focused:** It has an excellent user interface because it uses a design-centric widget, high-development tools, advanced APIs, and many more features.
+   - **Documentation:** Flutter has very good documentation support. It is organized and more informative. We can get everything that we want to be written in one place.
+
 
 ## Contributors
 
