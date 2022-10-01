@@ -7,7 +7,15 @@ You are requested to create your profile using the above link to be a part of it
 
    Flutter is Google's UI toolkit for crafting beautiful, natively compiled applications for mobile, web, and desktop from a single codebase.
 
-2. What are the `different types of widgets in Flutter`?
+2. Why did you choose Flutter?
+   I chose Flutter because it is 
+   * Open Source. There are no strings and license fee attached.
+   * It also has Hybrid app development i.e. Using one codebase, you can release apps for android and iOS which reduces the development time around 30–50% in comparison with  native apps.
+   * Unlike other cross platform technologies that use browser-based component rendering, Flutter’s dart compiler converts the app’s code into native code and hence able to deliver a superior performance
+   * Flutter enjoys a strong support of developers. The updates are quite stable and faster.
+   * Also, Flutter is a project by Google and hence there’s no denying that it will always enjoy that edge. 
+ 
+3. What are the `different types of widgets in Flutter`?
 
    Two types of widgets present in the Flutter are stateless and stateful.
 
@@ -18,7 +26,7 @@ You are requested to create your profile using the above link to be a part of it
    These widgets are immutable but the state object is used to keep track of the changes. 
    Checkbox and image are some of the examples of stateful widgets.
 
-3. Difference b/w `Stateful` widget and `Stateless` widget.
+4. Difference b/w `Stateful` widget and `Stateless` widget.
    
    Stateless widgets cannot change their state during the runtime of the app, 
    which means the widgets cannot be redrawn while the app is in action. 
@@ -27,12 +35,12 @@ You are requested to create your profile using the above link to be a part of it
    They are dynamic i.e., they are mutable and can be drawn multiple times within its lifetime. 
    
 
-4. What is the use of `pubspec.yaml` file in `Flutter`?
+5. What is the use of `pubspec.yaml` file in `Flutter`?
 
    The pubspec. yaml file is the most important file in any Flutter project. 
    It is the place where you provide all the required dependencies of your Flutter project.
    
-5. What is `Dart`? Why Flutter uses Dart as Programming Language?
+6. What is `Dart`? Why Flutter uses Dart as Programming Language?
    
    Dart is an object-oriented, garbage-collected programming language that you use to develop Flutter apps. It is created by Google. Dart was chosen as the language of Flutter      for the following reason:
    
@@ -44,21 +52,21 @@ You are requested to create your profile using the above link to be a part of it
    
    iv. ***Dart Team + Flutter Team*** As both Dart and Flutter is developed and maintained by Google, hence both Flutter Team and Dart Team work together to solve the problem.  
 
-6. What is the difference between `NetworkImage` and `Image.network` in flutter?
+7. What is the difference between `NetworkImage` and `Image.network` in flutter?
 
    `NetworkImage` class creates an object the provides an image from the src URL passed to it. It is not a widget and does not output an image to the screen.
    `Image.network` creates a widget that displays an image on the screen. It is just a named constructor on the Image class (a stateful widget). It sets the image property using the NetworkImage . This image property is used finally to display the image.
 
 
-7. What are `mixins` in dart?
+8. What are `mixins` in dart?
 
    Mixins are used for a unique kind of inheritance, they allow other classes to inherit it's baked in methods for use, without actually being a child of the parent Mixin class. In simple words, Mixins are our usual normal classes from which we can borrow methods, without extending the class.
    
-8. What is `hot reload` in flutter?
+9. What is `hot reload` in flutter?
 
    Flutter’s hot reload feature helps you quickly and easily experiment, build UIs, add features, and fix bugs. Hot reload works by injecting updated source code files into the running `Dart Virtual Machine (VM)`. After the VM updates classes with the new versions of fields and functions, the Flutter framework automatically rebuilds the widget tree, allowing you to quickly view the effects of your changes.
 	
-9. What are the two types of `Streams` available in `Flutter`?
+10. What are the two types of `Streams` available in `Flutter`?
    
    There are two types of Streams available in Flutter which are:
       ..* Single subscription streams
@@ -68,34 +76,34 @@ You are requested to create your profile using the above link to be a part of it
    `Broadcast streams` : This stream is meant for the individual messages that can be handeled one at a time. Multiple `listener` can listen at a time and it also gives the user the chance to listen after the cancellation of the previous subscription.
 
 
-10. What is a `Flutter Inspector` ?
+11. What is a `Flutter Inspector` ?
    
    `Flutter Inspector` is a tool that helps in visualizing and exploring the widget trees. It also helps in understanding the present layout and rectify the layout issues.
 
 
-11. Is CI/CD possible in `Flutter`?
+12. Is CI/CD possible in `Flutter`?
 
     Yes, CI/CD is possible in `Flutter`. There is CI/CD tool dedicated to `Flutter` the name is `CODE MAGIC`. With the help of `CODE MAGIC` we can easily automate the process of CI/CD for flutter apps from single automation.
    
    
-12. What’s the difference between `hot reload` and `hot restart`?
+13. What’s the difference between `hot reload` and `hot restart`?
     
     Hot reload maintains the app state while updating the UI almost instantaneously whereas Hot restart resets the app state to its initial conditions before updating the UI.
 
 
-13. What are Null-aware operators in `Flutter` ?    
+14. What are Null-aware operators in `Flutter` ?    
 
      Dart offers some handy operators for dealing with values that might be null.
 
      a.One is the ??= assignment operator, which assigns a value to a variable only if that variable is currently null<br>
      b.Another null-aware operator is ??, which returns the expression on its left unless that expression’s value is null, in which case it evaluates and returns the expression        on its right
 
-14. What is use of `Navigation.push` and `Navigation.pop` function? 
+15. What is use of `Navigation.push` and `Navigation.pop` function? 
    
     The `push` method is used to add a route to the stack of routes managed by the navigator. The `pop` method is used to remove the current route from the stack of routes managed by the navigator.
 
 
-15. What is an `App state`? 
+16. What is an `App state`? 
     
     State means that is not ephemeral, that you want to share across many parts of your app, and that you want to keep between user sessions, is what we call application state (sometimes also called shared state).
 
@@ -106,7 +114,7 @@ You are requested to create your profile using the above link to be a part of it
    * The shopping cart in an e-commerce app
    * Read/unread state of articles in a news app
 
-16. What are the `different build modes` in Flutter?
+17. What are the `different build modes` in Flutter?
 
    * The Flutter tooling supports three modes when compiling your app, and a headless mode for testing.
    * You choose a compilation mode depending on where you are in the development cycle.
@@ -116,12 +124,12 @@ You are requested to create your profile using the above link to be a part of it
      * Profile
      * Release
 
-17. What is the difference between *`main()`* and *`runApp()`* functions in Flutter? 
+18. What is the difference between *`main()`* and *`runApp()`* functions in Flutter? 
 
    * `main ()` function came from Java-like languages so it's `where all program started,` without it, you can't write any program on Flutter even without UI.
    * `runApp()` function should return Widget that would be attached to the screen as a root of the Widget Tree that will be rendered.
 
-18. What is ***ScopedModel/BLoC Pattern?***
+19. What is ***ScopedModel/BLoC Pattern?***
     
     `ScopedModel` and `BLoC (Business Logic Components)` are common Flutter app architecture patterns to help separate business logic from UI code and using fewer Stateful Widgets.
 
@@ -129,11 +137,11 @@ You are requested to create your profile using the above link to be a part of it
    
     * `BLoC` stands for Business Logic Components. It helps in managing state and make access to data from a central place in your project. The gist of BLoC is that everything in the app should be represented as stream of events: widgets submit events; other widgets will respond. BLoC sits in the middle, managing the conversation.
 
-19. How to avoid widget remount while working with Bottom navigation tabs?
+20. How to avoid widget remount while working with Bottom navigation tabs?
 
     The effective way to avoid the no of widget rebuilds while working with multiple Widgets as interfaces of a app that uses Bottom Navigation Tabs as it's stratergy it to utilize IndexedStack that will increase the app performace by 2x and reduces the unnecessary widget rebuilds on tab changes.
 
-20. How do you reduce widget rebuild?
+21. How do you reduce widget rebuild?
 
    You rebuild widgets when the state changes. This is normal and desirable, because it allows the user to see the state changes reflected in the UI. However, rebuilding parts of the UI that don't need to change is wasteful.
 
@@ -143,65 +151,65 @@ You are requested to create your profile using the above link to be a part of it
    * Whenever possible, use the `const` constructor, because this will tell Flutter that it doesn't need to rebuild the widget.
    * Keep the subtree of a stateful widget as small as possible. If a stateful widget needs to have a widget subtree under it, create a custom widget for the stateful widget and give it a `child` parameter.
    
-21. What is `BuildContext` and how is it useful?
+22. What is `BuildContext` and how is it useful?
 
    BuildContext is actually the widget's element in the Element tree — so every widget has its own BuildContext.
    You usually use BuildContext to get a reference to the theme or to another widget. For example, if you want to show a material dialog, you need a reference to the scaffold. You can get it with Scaffold.of(context), where context is the build context. of() searches up the tree until it finds the nearest scaffold.
 
-22. What is `setState()` ?
+23. What is `setState()` ?
    
   setState notifies the framework that the internal state of an object has changed in a way that might impact the user interface in this subtree, which causes the framework to schedule a build for this State object. If we just change the state directly without calling setState, the framework might not schedule a build and the user interface for this subtree might not be updated to reflect the new state.
   It is recommended that the setState method only be used to wrap the actual changes to the state, not any computation that might be associated with the change.
   
-23. Explain why the `Arrow operator` is used in Flutter?
+24. Explain why the `Arrow operator` is used in Flutter?
 
   The Arrow operator is the only one line of code and is a shorthand in Dart, which can we used to write one-line functions.
 
-24. What is the purpose of a `SafeArea`?
+25. What is the purpose of a `SafeArea`?
 
    `SafeArea` is basically a glorified Padding widget. If you wrap another widget with `SafeArea` , it adds any necessary padding needed to keep your widget from being blocked by the system status bar, notches, holes, rounded corners and other "creative" features by manufactures.
 
-25. What is the difference between `WidgetsApp` and `MaterialApp`?
+26. What is the difference between `WidgetsApp` and `MaterialApp`?
    
    `WidgetsApp` provides basic navigation. Together with the `widgets` library, it includes many of the foundational widgets that Flutter uses.
    `MaterialApp` and the corresponding `material` library is a layer built on top of `WidgetsApp` and the widgets library. It implements Material Design, which gives the app a unified look and feel on any platform or device. The `material` library has many additional widgets that come with it.
    You certainly aren’t required to use `MaterialApp` in your project. You can use `CupertinoApp` to make iOS users feel at home, or you can even build your own set of custom widgets to fit your brand.
 
-26. Can you nest a `Scaffold`? Why or why not?
+27. Can you nest a `Scaffold`? Why or why not?
 
    Yes, you can absolutely nest a `Scaffold`. That’s the beauty of Flutter. You control the entire UI.
    `Scaffold` is just a widget, so you can put it anywhere a widget might go. By nesting a `Scaffold`, you can layer drawers, snack bars and bottom sheets.
 
-27. When is it appropriate to use packages, plugins or third-party dependencies?
+28. When is it appropriate to use packages, plugins or third-party dependencies?
 
    Packages and plugins are great for saving you time and work. There’s no need to solve a complex problem yourself when someone else has done it already, especially if the solution is highly rated.
    On the other hand, there’s also a danger of being too reliant on third party packages. They can break, have bugs or even be abandoned. When you need to switch to a new package down the road, you might have to make huge changes to your code.
    That’s why it’s important to isolate packages from your core business logic. You can do that by creating an abstract Dart class that acts as an interface for the package. Once you’ve set up that kind of architecture, all you have to do to switch packages is to rewrite the concrete wrapper class that implements your interface.
 
-28. What types of `tests` can you perform?
+29. What types of `tests` can you perform?
 
    There are three main kinds of tests: unit tests, widget tests and integration tests. Unit tests are all about checking the validity of your business logic. Widget tests are for making sure UI widgets have the components that you expect them to. Integration tests check that your app is working as a whole.
    One additional type of test that is not as well known is a golden test. In a golden test, you have an image of a widget or screen and check to see that the actual widget matches it.
 
-29. How do you `talk to native code` from within a Flutter app?
+30. How do you `talk to native code` from within a Flutter app?
 
    One type of platform channel is a method channel. Data is serialized on the Dart side and then sent to the native side. You can write native code to interact with the platform before sending a serialized message back. That message might be written in Java or Kotlin on Android or Objective-C or Swift on iOS.
    The second type of platform channel is the event channel, which you use to send a stream of data from the native platform back to Flutter. This is useful for monitoring sensor data.
 
-30. What is the use of having `Android and iOS folders` in the Flutter project?
+31. What is the use of having `Android and iOS folders` in the Flutter project?
 
    Android:  This folder is meant for holding an entire Android project.  This will come into usage when you want to build a Flutter application for the Android platform. When you compile a Flutter code into the native code, it will enter into the Android project and gives you a native Android application.
    
    iOS: This folder is meant for holding an entire Mac project. This will come into usage when you want to build a Flutter application for the iOS platform. It works similarly to the Android folder. When you compile a Flutter code into the native code, it will enter into the Android iOS project and gives you a native Android application. Building a Flutter application will only be possible when you work on Xcode IDE and macOS.
 
-31. What are the various types of `RenderObjectElement in flutter`?
+32. What are the various types of `RenderObjectElement in flutter`?
 
     In flutter we have two types of RenderObjectElements:
 
     For e.g. Column(children: )
     For e.g. Padding(child: )
 
-32. What is `profile mode` and when do you use it?
+33. What is `profile mode` and when do you use it?
    
    In profile mode, some debugging ability is maintained—enough to profile your app’s performance.
    Profile mode is used when you want to analyze performance.
@@ -210,22 +218,22 @@ You are requested to create your profile using the above link to be a part of it
    Profile mode for a web app means that: - The build is not minified but tree shaking has been performed. - The app is compiled with the dart2js compiler.
    The command flutter run --profile compiles to profile mode.
    
-33. Why does the first Flutter app build take so long?
+34. Why does the first Flutter app build take so long?
 
    When you build the Flutter app the first time, it will take a longer time. It is because the Flutter builds the device-specific APK or IPA file. Thus, the Gradle and Xcode are used to build the file, taking a long time.
    
-34. What is the purpose of `@override` used in Flutter?
+35. What is the purpose of `@override` used in Flutter?
 
    @override points out that the function is also defined in an ancestor class, but is being redefined to do something else in the current class. It's also used to annotate the implementation of an abstract method. It is optional to use but recommended as it improves readability.
    
-35. What are the different `build modes` in Flutter?
+36. What are the different `build modes` in Flutter?
 
    The Flutter tooling supports three modes when compiling your app, and a headless mode for testing. You choose a compilation mode depending on where you are in the development cycle. The modes are: 
    - Debug 
    - Profile 
    - Release
 
-36. Explain `async`, `await`, `then` and `Future` in Dart?
+37. Explain `async`, `await`, `then` and `Future` in Dart?
 
    * Async means that this function is asynchronous and you might need to wait a bit to get its result. <br />
    * Await literally means - wait here until this function is finished and you will get its return value. <br />
