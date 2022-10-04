@@ -233,13 +233,19 @@ You are requested to create your profile using the above link to be a part of it
    - Debug 
    - Profile 
    - Release
-
+   
 36. Explain `async`, `await`, `then` and `Future` in Dart?
 
    * Async means that this function is asynchronous and you might need to wait a bit to get its result. <br />
    * Await literally means - wait here until this function is finished and you will get its return value. <br />
    * .Then((value){…}) is a callback that’s called when future completes successfully(with a value). <br />
    * Future is a type that ‘comes from the future’ and returns value from your asynchronous function. It can complete with success(.then) or with an error(.catchError). <br />
+
+ 37. What is the difference between `Container` and `Sized Box`?
+
+   1) Conatiner takes the the size of it's parent while Sized box have the specified size.
+   2) Sized Box can be made const,  while container cannot be made const.
+   3) In container we don't need to use many nested widgets we alredy get color,padding,margin. 
    
 37. What are the `Advantages` of Flutter?
 
