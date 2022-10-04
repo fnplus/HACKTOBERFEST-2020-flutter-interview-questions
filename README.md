@@ -7,7 +7,16 @@ You are requested to create your profile using the above link to be a part of it
 
    Flutter is Google's UI toolkit for crafting beautiful, natively compiled applications for mobile, web, and desktop from a single codebase.
 
-2. What are the `different types of widgets in Flutter`?
+2. Why did you choose Flutter?
+
+   I chose Flutter because it is
+   * Open Source, so there are no strings and license fee attached.
+   * It offer hybrid app development, i.e., using one codebase, we can release apps for Android and iOS. This reduces the development time and efforts in comparison with native apps.
+   * Unlike other cross platform technologies that use browser-based component rendering, Flutter’s dart compiler converts the app’s code into native code and hence it delivers a superior performance.
+   * The community is quite superb because of the strong support of developers. The updates are quite stable and faster.
+   * Flutter is a project by Google and hence there’s no denying that it will always enjoy that edge.
+
+3. What are the `different types of widgets in Flutter`?
 
    Two types of widgets present in the Flutter are stateless and stateful.
 
