@@ -264,6 +264,13 @@ You are requested to create your profile using the above link to be a part of it
     It is the short form of in-betweening. In a tween animation, it is required to define the start and endpoint of animation. It means the animation begins with the start value, then goes through a series of intermediate values and finally reached the end value. It also provides the timeline and curve, which defines the time and speed of the transition. The widget framework provides a calculation of how to transition from the start and endpoint.
     
 
+21. How to avoid widget remount while working with Bottom navigation tabs?
+
+    Hot reload maintains the app state while updating the UI almost instantaneously. Hot restart, by comparison, takes a little longer because it resets the app state to its initial conditions before updating the UI. Both of these are faster than doing a full restart, which requires recompiling the app.
+
+    When making significant changes, you need to stop and restart the app. On rare occasions, you might have to delete the app from your simulator/emulator or device and reinstall it.
+
+
 ## Contributors
 
 
